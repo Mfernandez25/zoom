@@ -9,6 +9,17 @@ a{
 .row{
     width: 100%;
 }
+.d-movil{
+    display: none;
+}
+@media (max-width: 767px){
+    .d-desktop{
+        display: none;
+    }
+    .d-movil{
+        display: flex;
+    }
+}
 /*HEADER*/
 .top-bar{
     height: 40px;
@@ -89,6 +100,33 @@ header.fijo{
     width: 100%;
     top: 0;
     background: #fff;
+}
+.btn-toggle{
+    background: none;
+    border: none;
+    margin-top: 22px;
+    padding: 0;
+    float: right;
+}
+.btn-toggle span{
+    width: 22px;
+    height: 2px;
+    background-color: #30acff;
+    display: block;
+    margin: 3px 0;
+
+}
+@media (max-width: 767px){
+    .nav-izq,
+    .top-bar{
+        display: none;
+    }
+    .nav-menu li {
+        padding: 22px 7px;
+    }
+    .nav-menu {
+        display: inline-block;
+    }
 }
 /*  FORMULARIO*/
 .content-form{
@@ -287,6 +325,43 @@ footer select{
 }
 .copyright{
     margin-top: 30px;
+}
+@media (max-width: 767px){
+    .content-form{
+        width: 100%;
+        box-shadow: none;
+        margin: 34px 0 10px;
+    }
+    .col-first{
+        background: none;
+    }
+    .col-first h1{
+        margin-top: 0;
+        text-align: left!important;
+        font-size: 14px;
+    }
+    .col-first p{
+        padding-bottom: 0;
+        background: none;
+        font-size: 14px;
+        text-align: left!important;
+    }
+    .col-form {
+        padding: 0px 0px 10px;
+        margin: 0;
+    }
+    footer h4 {
+        margin-top: 22px;
+    }
+    footer h4+ul li{
+        width: 49%;
+        display: inline-block;
+    }
+    .row {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
 }
 /*ICONOS FLOTANTES*/
 .btn-fijo-chat{
