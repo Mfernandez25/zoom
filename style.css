@@ -1,0 +1,258 @@
+/*GENERAL*/
+body, p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    width: 100%;
+}
+/*HEADER*/
+.top-bar{
+    height: 40px;
+    line-height: 40px;
+    background-color: #39394d;
+    position: relative;
+    z-index: 1;
+}
+.top-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.top-bar ul li{
+    display: inline-block;
+}
+.top-bar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 11px;
+}
+header img{
+    width: 100px;
+}
+.menu-right{
+    text-align: right;
+}
+.menu-box{
+    box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+}
+.menu-box .row{
+    align-items: center;
+}
+.nav-menu {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+.nav-menu  li{
+    display: inline-block;
+    padding: 22px 15px;
+    font-weight: 600;
+}
+.nav-menu  li a{
+    color: #777;
+}
+.nav-menu  li a:hover{
+    color: #2073d9;
+}
+.nav-menu .btn-menu{
+    padding-right: 0px;
+}
+.nav-menu.list-blue a{
+    color: #2073d9;
+}
+.nav-menu .btn-menu a{
+    background-color: #f26d21;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+.nav-menu .btn-menu a:hover,
+.nav-menu .btn-menu a:focus,
+.nav-menu .btn-menu a:active{
+    background-color: #da621e;
+    color: #fff;
+}
+.nav-izq{
+    margin-left: 30px;
+}
+
+/*  FORMULARIO*/
+.content-form{
+    width: 90%;;
+    margin: 62px auto 71px;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 4px 40px rgb(0 0 0 / 15%);
+    overflow: hidden;
+}
+.col-first{
+    background-color: #dae0e9;
+    padding: 0;
+}
+.col-first  h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #595959;
+    font-weight: 600;
+    margin-top: 119px;
+}
+.col-first p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 211px;
+    color: #595959;
+    background: url(./img/arrow.png);
+    background-size: 100%;
+}
+.col-form{
+    padding: 47px 80px 10px;
+    min-height: 450px;
+}
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-group label{
+    color: #747487;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.form-control{
+    font-size: 14px;
+    height: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-color: #babacc;
+    border-radius: 6px;
+}
+.contrasena-group a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+}
+.col-form .btn{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.login-icons{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.login-icons p{
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.login-icons p::before{
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    background-color: #ededf4;
+}
+.login-icons p span{
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    display: table;
+    margin: auto;
+    padding: 0 10px;
+}
+.login-icons i{
+    width: 48px;;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(82,82,128,0.09);
+    border-radius: 16px;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.login-icons a{
+    text-align: center;
+}
+.login-icons span{
+    display: block;
+    margin-top: 5px;
+    color: rgba(4,4,19,0.56);
+    line-height: 1.8;
+}
+.login-icons .row >div{
+    padding: 0 5px
+}
+/*FOOTER*/
+footer{
+    background-color: #39394d;
+    padding: 30px 0;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+footer h4{
+    font-size: 12px;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-iconos{
+    margin-top:  20px;
+}
+.list-iconos li{
+    display: inline-block;
+}
+.list-iconos li a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #565671;
+    font-size: 16px;
+    text-decoration: none;
+}
+.list-iconos li a:hover{
+    background: #028cb0;
+    color: #fff;
+ 
+}
+footer select{
+    background: none;
+    color: #fff;
+    height: 30px;
+    padding: 1px 11px;
+}
+.col-footer .espacio{
+    margin-top: 30px;
+}
+.copyright{
+    margin-top: 30px;
+}
