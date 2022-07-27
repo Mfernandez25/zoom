@@ -321,6 +321,9 @@ footer select{
     height: 30px;
     padding: 1px 11px;
 }
+footer select option{
+    color: #39394d;
+}
 .col-footer .espacio{
     margin-top: 30px;
 }
