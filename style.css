@@ -368,10 +368,6 @@ footer select option{
     }
 }
 /*ICONOS FLOTANTES*/
-.btn-flotente img{
-    position: fixed;
-    width: 70%;
-}
 .btn-fijo-chat{
     background-color: #0e72ed;
     height: 56px;
@@ -390,9 +386,14 @@ footer select option{
     justify-content: center;
     box-shadow: 0 4px 20px 4px rgb(0 0 0 / 12%);
 }
+.btn-fijo-chat img{
+    width: 70%;
+}
 .btn-verificado{
     width: 50px;
     height: 50px;
+    position: fixed;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,4 +402,7 @@ footer select option{
     background: #6aaae4;
     color: #fff;
     border-radius: 7px;
+}
+.btn-verificado img{
+    width: 70%;;
 }
